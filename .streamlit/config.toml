@@ -1,0 +1,10 @@
+[theme]
+base="light"
+primaryColor="#0B4A8E" 
+backgroundColor="#F8FAFC" 
+secondaryBackgroundColor="#FFFFFF"
+textColor="#1E293B"
+font="sans serif"
+
+[ui]
+hideTopBar=true
