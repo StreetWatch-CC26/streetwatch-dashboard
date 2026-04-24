@@ -203,7 +203,8 @@ transform = A.Compose([
 
     with tab_data:
         if not df.empty:
-            test_df = df[df['split']=='test'].head(20).copy()
+            # test_df = df[df['split']=='test'].head(20).copy() 
+            test_df = df.head(20).copy()
             
             cols = test_df.columns.tolist()
             front_cols = ['image_name', 'severity_score', 'pothole_size_category']
